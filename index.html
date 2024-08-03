@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find A Dish to Get Rid of Soon to Expire Ingredients</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/solid.min.css"
+          integrity="sha512-/r+0SvLvMMSIf41xiuy19aNkXxI+3zb/BN8K9lnDDWI09VM0dwgTMzK7Qi5vv5macJ3VH4XZXr60ip7v13QnmQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "fonts.css">
+</head>
+<body>
+
+<div class = "container">
+    <div class = "meal-wrapper">
+        <div class = "meal-search">
+            <h2 class = "title">Find Meals For Your Ingredients</h2>
+            <blockquote>Let's reimagine our food system and create a world where food waste
+                is a thing of the past.<br>
+                <cite>- Tristam Stuart</cite>
+            </blockquote>
+            <div class = "meal-search-box">
+                <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+                <button type = "submit" class = "search-btn btn" id = "search-btn">
+                    <i class = "fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class = "meal-result">
+            <h2 class = "title">Search Results:</h2>
+            <div id= "meal">
+            </div>
+        </div>
+        <div class = "meal-details">
+            <!-- recipe close btn -->
+            <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+                <i class = "fas fa-times"></i>
+            </button>
+            <div class = "meal-details-content">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src = "RecipiePP.js"></script>
+
+</body>
+
+</html>
